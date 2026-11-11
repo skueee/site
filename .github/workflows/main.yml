@@ -1,0 +1,23 @@
+name: Merge to release branch
+
+on: workflow_dispatch
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git Identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Merge main into release
+        run: |
+          git checkout release
+          git merge origin/main --no-ff -m "merge main into release"
+          git push origin release
