@@ -55,7 +55,7 @@
 			<SocialPill text="Gitlab" link="https://gitlab.com/skueee" />
 			<SocialPill text="Email" link="mailto:me@skue.dev" />
 			<SocialPill text="Twitter" link="https://x.com/skueee_" />
-			<SocialPill text="Linkedin" link="www.linkedin.com/in/robin-brams-89707a443" />
+			<SocialPill text="Linkedin" link="https://www.linkedin.com/in/robin-brams-89707a443" />
 			<SocialPill text="Bluesky" link="https://bsky.app/profile/skioue.bsky.social" />
 		</div>
 	</div>
