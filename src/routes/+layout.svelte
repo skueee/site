@@ -1,5 +1,3 @@
-<link rel="webmention" href="https://webmention.io/skue.dev/webmention" />
-
 <script lang="ts">
 	import './layout.css';
 	import favicon from '#lib/assets/favicon.svg';
@@ -9,6 +7,8 @@
 
 	let { children }: LayoutProps = $props();
 </script>
+
+<link rel="webmention" href="https://webmention.io/skue.dev/webmention" />
 
 <svelte:head>
 	<link rel="icon" href={favicon} />

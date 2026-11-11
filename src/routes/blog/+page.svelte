@@ -6,7 +6,12 @@
 	<div class="flex flex-col items-center justify-center gap-5">
 		<h1 class="google-sans-flex-special-title text-7xl">Blog</h1>
 		<p class="google-sans-flex-bold text-2xl">My random ramblings about anything my brain wants</p>
-		<a rel="noopener noreferer" target="_blank" href="/rss.xml" class="hover:underline google-sans-flex-regular text-xl">&lt;RSS feed /&gt;</a>
+		<a
+			rel="noopener noreferer"
+			target="_blank"
+			href="/rss.xml"
+			class="google-sans-flex-regular text-xl hover:underline">&lt;RSS feed /&gt;</a
+		>
 	</div>
 	<ul class="flex w-full flex-col gap-5">
 		{#each data.posts as post}

@@ -1,5 +1,5 @@
-import { getPosts } from "#lib/posts.ts";
+import { getPosts } from '#lib/posts.ts';
 
 export async function load() {
-  return getPosts()
+	return getPosts();
 }
