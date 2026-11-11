@@ -39,4 +39,15 @@
         </div>
         <a rel="noopener noreferer" target="_blank" href="https://github.com/skueee?tab=repositories" class="google-sans-flex-wide">See all →</a>
     </div>
+    <div class="w-full flex flex-col items-center justify-center px-10 gap-5">
+        <h1 class="w-full google-sans-flex-title text-4xl">All my socials:</h1>
+        <div class="flex flex-wrap items-center justify-center gap-4 w-full">
+            <SocialPill text="Github" link="https://github.com/skueee" />
+            <SocialPill text="Gitlab" link="https://gitlab.com/skueee" />
+            <SocialPill text="Email" link="" />
+            <SocialPill text="Twitter" link="https://x.com/skueee_" />
+            <SocialPill text="Linkedin" link="www.linkedin.com/in/robin-brams-89707a443" />
+            <SocialPill text="Bluesky" link="https://bsky.app/profile/skioue.bsky.social" />
+        </div>
+    </div>
 </div>
