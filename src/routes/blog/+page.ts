@@ -1,13 +1,5 @@
+import { getPosts } from "#lib/posts.ts";
+
 export async function load() {
-	const paths = import.meta.glob('/src/posts/*.md', { eager: true });
-
-	const posts = Object.entries(paths)
-		.map(([path, file]) => {
-			const slug = path.split('/').pop().replace('.md', '');
-			const metadata = file.metadata;
-			return { slug, ...metadata };
-		})
-		.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-
-	return { posts };
+  return getPosts()
 }
