@@ -8,7 +8,7 @@ export async function load({ params }) {
 			content: post.default,
 			meta: post.metadata
 		};
-	} catch (err) {
+  } catch {
 		error(404, 'Article not found');
 	}
 }
