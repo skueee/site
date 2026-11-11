@@ -3,6 +3,7 @@
 	import favicon from '#lib/assets/favicon.svg';
 	import type { LayoutProps } from './$types';
 	import "../app.css";
+	import Header from '#lib/components/Header.svelte';
 
 	let { children }: LayoutProps = $props();
 </script>
@@ -11,4 +12,9 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-{@render children()}
+<div>
+    <Header/>
+    <main>
+        {@render children()}
+    </main>
+</div>
