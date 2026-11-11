@@ -15,7 +15,7 @@
 </svelte:head>
 
 <div class="h-card hidden">
-	<a class="p-name u-url" href="https://skue.dev">Robin Brams</a>
+	<a class="p-name u-url u-uid" href="https://skue.dev">Robin Brams</a>
 	<p class="p-given-name">Robin</p>
 	<p class="p-family-name">Brams</p>
 	<p class="p-nickname">skue</p>
