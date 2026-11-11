@@ -14,7 +14,7 @@
 
 <div>
     <Header/>
-    <main>
+    <main class="py-10 px-90">
         {@render children()}
     </main>
 </div>
