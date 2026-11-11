@@ -28,10 +28,14 @@
 	</div>
 
 	<p class="p-summary hidden">{data.meta.snippet}</p>
+	<a class="u-url hidden" href={target}/>
+	<a rel="author hideen" class="p-author h-card" href="https://skue.dev/">skue</a>
 
 	<hr class="py-3" />
 
-	<Content class="e-content" />
+	<div class="e-content">
+		<Content />
+	</div>
 
 	<div data-webmention-target={target}></div>
 </article>
