@@ -14,7 +14,7 @@
 		>
 	</div>
 	<ul class="flex w-full flex-col gap-5">
-		{#each data.posts as post}
+		{#each data.posts as post (post.slug)}
 			<li
 				class="w-full rounded-2xl border-2 p-3 transition-all duration-300 ease-out hover:bg-white hover:text-black"
 			>

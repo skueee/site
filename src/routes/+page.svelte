@@ -36,7 +36,7 @@
 			{#if data.repos.length === 0}
 				<p>Loading projects or unable to fetch...</p>
 			{:else}
-				{#each data.repos as repo}
+				{#each data.repos as repo (repo.name)}
 					<RepoListing name={repo.name} description={repo.description} url={repo.url} />
 				{/each}
 			{/if}
