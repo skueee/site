@@ -1,150 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,ROND@1..144,-10..0,25..151,1..1000,0..100&display=swap');
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --font-sans: 'Google Sans Flex Variable', 'Google Sans Flex', sans-serif;
+	--font-sans: 'Google Sans Flex Variable', 'Google Sans Flex', sans-serif;
 }
 
 .google-sans-flex-regular {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 400;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 400;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-regular:hover {
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
-
 .google-sans-flex-bold {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 550;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 550;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-bold:hover {
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
 .google-sans-flex-bold-extra {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 900;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 900;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-bold-extra:hover {
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
 .google-sans-flex-title {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 700;
-  font-variation-settings:
-    "wdth" 110,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 700;
+	font-variation-settings:
+		'wdth' 110,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-title:hover {
-  font-variation-settings:
-    "wdth" 110,
-    "ROND" 100;
+	font-variation-settings:
+		'wdth' 110,
+		'ROND' 100;
 }
 
 .google-sans-flex-special-title {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 1000;
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 1000;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-special-title:hover {
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 100;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 100;
 }
 
 .google-sans-flex-wide {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 400;
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 0;
-  transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 400;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 0;
+	transition: font-variation-settings 1s cubic-bezier(0.1, 1, 0.36, 1);
 }
 
 .google-sans-flex-wide:hover {
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 0;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 0;
 }
 
 .google-sans-flex-regular-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 400;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 400;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
 .google-sans-flex-bold-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 550;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 550;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
 .google-sans-flex-bold-extra-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 900;
-  font-variation-settings:
-    "wdth" 100,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 900;
+	font-variation-settings:
+		'wdth' 100,
+		'ROND' 100;
 }
 
 .google-sans-flex-title-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 700;
-  font-variation-settings:
-    "wdth" 110,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 700;
+	font-variation-settings:
+		'wdth' 110,
+		'ROND' 100;
 }
 
 .google-sans-flex-special-title-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 1000;
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 1000;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 100;
 }
 
 .google-sans-flex-wide-round {
-  font-family: "Google Sans Flex", sans-serif;
-  font-weight: 400;
-  font-variation-settings:
-    "wdth" 151,
-    "ROND" 100;
+	font-family: 'Google Sans Flex', sans-serif;
+	font-weight: 400;
+	font-variation-settings:
+		'wdth' 151,
+		'ROND' 100;
 }
 
 body {
-    background-color: #000000;
-    color: #ffffff;
+	background-color: #000000;
+	color: #ffffff;
 }
