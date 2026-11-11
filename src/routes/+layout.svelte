@@ -29,7 +29,7 @@
 					target="_blank"
 					href="https://github.com/skueee/site/">Source</a
 				>
-				| <a class="hover:underline" rel="noopener noreferer" target="_blank" href="">Contact</a>
+				| <a class="hover:underline" rel="noopener noreferer" target="_blank" href="mailto:me@skue.dev">Contact</a>
 			</p>
 		</div>
 	</footer>
