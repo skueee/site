@@ -1,3 +1,3 @@
-<div class="flex flex-col justify-center items-center">
-    <p class="text-4xl google-sans-flex-bold-round">Still in construction, come back later!</p>
+<div class="flex flex-col items-center justify-center">
+	<p class="google-sans-flex-bold-round text-4xl">Still in construction, come back later!</p>
 </div>

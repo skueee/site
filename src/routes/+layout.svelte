@@ -14,7 +14,7 @@
 
 <div>
 	<Header />
-	<main class="px-10 lg:px-25 xl:px-80 py-10">
+	<main class="px-10 py-10 lg:px-25 xl:px-80">
 		{@render children()}
 	</main>
 	<footer>

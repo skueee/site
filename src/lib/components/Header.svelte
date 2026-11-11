@@ -15,7 +15,7 @@
 </script>
 
 <header class="flex items-center justify-center">
-	<div class="flex flex-row gap-5 md:gap-10 py-5">
+	<div class="flex flex-row gap-5 py-5 md:gap-10">
 		{#each links as { href, label } (href)}
 			<a
 				{href}

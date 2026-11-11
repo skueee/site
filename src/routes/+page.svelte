@@ -18,18 +18,20 @@
 				<SocialPill text="Email" link="mailto:me@skue.dev" />
 			</div>
 		</div>
-		<p class="w-full text-start google-sans-flex-bold-round text-xl">
+		<p class="google-sans-flex-bold-round w-full text-start text-xl">
 			Heya, I'm skue (my real name is Robin, with a French pronounciation pls), a Belgian teen that
 			codes for fun! I really like to solve random problems that I don't even have, and to
 			experiment with things.
 		</p>
-		<p class="w-full text-start google-sans-flex-bold-round text-xl">
+		<p class="google-sans-flex-bold-round w-full text-start text-xl">
 			I also sometimes try 3d modeling, music making and all that kind of stuff in my free time, but
 			I'm not great at it. I just like to learn :)
 		</p>
 	</div>
 	<div class="flex w-full flex-col items-center justify-center gap-5 sm:px-10">
-		<h1 class="google-sans-flex-title w-full text-3xl sm:text-4xl">What I'm currently active on:</h1>
+		<h1 class="google-sans-flex-title w-full text-3xl sm:text-4xl">
+			What I'm currently active on:
+		</h1>
 		<div class="flex w-full flex-col gap-3 px-5">
 			{#if data.repos.length === 0}
 				<p>Loading projects or unable to fetch...</p>
