@@ -24,7 +24,6 @@
 	<p class="dt-bday">--02-17</p>
 </div>
 
-
 <div>
 	<Header />
 	<main class="px-10 py-10 lg:px-25 xl:px-80">
@@ -40,7 +39,13 @@
 					target="_blank"
 					href="https://github.com/skueee/site/">Source</a
 				>
-				| <a class="hover:underline" rel="noopener noreferer" target="_blank" href="mailto:me@skue.dev">Contact</a>
+				|
+				<a
+					class="hover:underline"
+					rel="noopener noreferer"
+					target="_blank"
+					href="mailto:me@skue.dev">Contact</a
+				>
 			</p>
 		</div>
 	</footer>

@@ -22,14 +22,16 @@
 <article class="h-entry">
 	<div class="mb-3 flex w-full flex-row items-end justify-between">
 		<span class="p-name google-sans-flex-title text-4xl">{data.meta.title}</span>
-		<time class="dt-published google-sans-flex-bold text-xl" datetime={data.meta.date}>{data.meta.date}</time>
+		<time class="dt-published google-sans-flex-bold text-xl" datetime={data.meta.date}
+			>{data.meta.date}</time
+		>
 	</div>
 
 	<p class="p-summary hidden">{data.meta.snippet}</p>
 
 	<hr class="py-3" />
 
-	<Content class="e-content"/>
+	<Content class="e-content" />
 
 	<div data-webmention-target={target}></div>
 </article>
