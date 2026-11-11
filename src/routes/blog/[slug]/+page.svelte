@@ -1,7 +1,21 @@
 <script>
 	let { data } = $props();
 	const Content = data.content;
+
+	const target = $derived(`https://skue.dev/blog/${page.params.slug}`);
+
+	$effect(() => {
+		const script = document.createElement('script');
+		script.src = 'https://webmention.io/js/webmention-render.js';
+		script.dataset.webmentionFor = target;
+		document.body.appendChild(script);
+		return () => script.remove();
+	});
 </script>
+
+<svelte:head>
+	<link rel="stylesheet" href="https://webmention.io/assets/webmention-render.css" />
+</svelte:head>
 
 <article>
 	<div class="mb-3 flex w-full flex-row items-end justify-between">
@@ -12,6 +26,8 @@
 	<hr class="py-3" />
 
 	<Content />
+
+	<div data-webmention-target={target}></div>
 </article>
 
 <style>
