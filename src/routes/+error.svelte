@@ -3,6 +3,6 @@
 </script>
 
 <div class="flex h-full flex-col items-center justify-center">
-	<h1 class="google-sans-flex-special-title text-9xl">{page.status}</h1>
-	<p class="google-sans-flex-bold-extra text-4xl">{page.error.message}</p>
+	<h1 class="google-sans-flex-special-title text-8xl sm:text-9xl">{page.status}</h1>
+	<p class="google-sans-flex-bold-extra text-2xl sm:text-4xl">{page.error.message}</p>
 </div>
