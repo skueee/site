@@ -14,13 +14,13 @@ export async function GET() {
     <title>${feedTitle}</title>
     <link>${website}</link>
     <description>${feedDescription}</description>
-    <atom:link href="${website}/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="${website}/rss" rel="self" type="application/rss+xml"/>
     ${posts
 			.map(
 				(post) => `
     <item>
       <title><![CDATA[${post.title}]]></title>
-      <link>${website}/blog/${post.slug}.md</link>
+      <link>${website}/blog/${post.slug}</link>
       <guid isPermaLink="true">${website}/blog/${post.slug}.md</guid>
       <description><![CDATA[${post.snippet || ''}]]></description>
       <pubDate>${new Date(post.date).toUTCString()}</pubDate>
