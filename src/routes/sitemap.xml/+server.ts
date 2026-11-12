@@ -1,5 +1,7 @@
 import { getPosts } from '#lib/posts';
 
+export const prerender = true;
+
 export async function GET({ setHeaders }) {
   const website = 'https://skue.dev';
 
