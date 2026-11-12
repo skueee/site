@@ -14,7 +14,7 @@
 			</div>
 			<p class="google-sans-flex-regular mb-3.5">software engineer (for fun)</p>
 			<div class="flex flex-row gap-5">
-			    <SocialPill text="Blog" link="https://skue.dev/blog/" />
+				<SocialPill text="Blog" link="https://skue.dev/blog/" />
 				<SocialPill text="Github" link="https://github.com/skueee/" />
 				<SocialPill text="Email" link="mailto:me@skue.dev" />
 			</div>
