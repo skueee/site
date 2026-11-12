@@ -4,6 +4,10 @@
 	import type { LayoutProps } from './$types';
 	import '../app.css';
 	import Header from '#lib/components/Header.svelte';
+	import { dev } from '$app/environment';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
+
+	injectAnalytics({ mode: dev ? 'development' : 'production' });
 
 	let { children }: LayoutProps = $props();
 </script>
