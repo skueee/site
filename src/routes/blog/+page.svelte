@@ -1,6 +1,10 @@
 <script>
+	import SEO from "#lib/components/SEO.svelte";
+
 	let { data } = $props();
 </script>
+
+<SEO title="skue's blog" url="https://skue.dev/blog/"/>
 
 <div class="flex flex-col items-center justify-center gap-10">
 	<div class="flex flex-col items-center justify-center gap-5">
