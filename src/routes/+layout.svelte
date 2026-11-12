@@ -7,6 +7,7 @@
 	import { dev } from '$app/environment';
 	import { injectAnalytics } from '@vercel/analytics/sveltekit-next';
 	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit-next';
+	import SEO from '#lib/components/SEO.svelte';
 
 	injectSpeedInsights();
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
@@ -19,6 +20,8 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
+
+<SEO/>
 
 <div class="h-card hidden">
 	<a class="p-name u-url u-uid" href="https://skue.dev">Robin Brams</a>

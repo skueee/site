@@ -1,4 +1,5 @@
 <script>
+	import SEO from '#lib/components/SEO.svelte';
 	import { page } from '$app/state';
 
 	let { data } = $props();
@@ -14,6 +15,8 @@
 		return () => script.remove();
 	});
 </script>
+
+<SEO name="skue's blog" url={target} type="article"/>
 
 <svelte:head>
 	<link rel="stylesheet" href="https://webmention.io/assets/webmention-render.css" />
