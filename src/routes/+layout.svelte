@@ -5,8 +5,8 @@
 	import '../app.css';
 	import Header from '#lib/components/Header.svelte';
 	import { dev } from '$app/environment';
-	import { injectAnalytics } from '@vercel/analytics/sveltekit';
-	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+	import { injectAnalytics } from '@vercel/analytics/sveltekit-next';
+	import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit-next';
 
 	injectSpeedInsights();
 	injectAnalytics({ mode: dev ? 'development' : 'production' });
