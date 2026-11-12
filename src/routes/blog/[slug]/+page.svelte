@@ -29,7 +29,7 @@
 
 	<p class="p-summary hidden">{data.meta.snippet}</p>
 	<a class="u-url hidden" href={target} />
-	<a rel="author hidden" class="p-author h-card" href="https://skue.dev/">skue</a>
+	<a rel="author" class="p-author h-card hidden" href="https://skue.dev/">skue</a>
 
 	<hr class="py-3" />
 
