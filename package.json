@@ -43,7 +43,7 @@
 	},
 	"dependencies": {
 		"@sveltejs/adapter-vercel": "^7.0.3",
-		"@vercel/analytics": "^2.0.1",
+		"@vercel/analytics": "^2.1.0-canary.5",
 		"@vercel/speed-insights": "^2.1.0"
 	}
 }
