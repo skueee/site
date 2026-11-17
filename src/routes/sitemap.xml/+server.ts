@@ -3,46 +3,40 @@ import { getPosts } from '#lib/posts';
 export const prerender = true;
 
 export async function GET({ setHeaders }) {
-  const website = 'https://skue.dev';
+	const website = 'https://skue.dev';
 
-  const staticPages = [
-    '',
-    '/blog',
-    '/guestbook',
-    '/corners',
-    '/rss.xml'
-  ]
+	const staticPages = ['', '/blog', '/guestbook', '/corners', '/rss.xml'];
 
-  const { posts } = await getPosts()
+	const { posts } = await getPosts();
 
-  const xml = `<?xml version="1.0" encoding="UTF-8" ?>
+	const xml = `<?xml version="1.0" encoding="UTF-8" ?>
   <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     ${staticPages
-      .map(
-        (page) => `
+			.map(
+				(page) => `
       <url>
         <loc>${website}${page}</loc>
         <changefreq>weekly</changefreq>
       </url>
     `
-      )
-      .join('')}
+			)
+			.join('')}
     ${posts
-      .map(
-        (post) => `
+			.map(
+				(post) => `
       <url>
         <loc>${website}/blog/${post.slug}</loc>
         <changefreq>yearly</changefreq>
       </url>
     `
-      )
-      .join('')}
+			)
+			.join('')}
   </urlset>`;
 
-  return new Response(xml.trim(), {
-    headers: {
-      'Cache-Control': 'max-age=0, s-maxage=3600',
-      'Content-Type': 'application/xml'
-    }
-  })
+	return new Response(xml.trim(), {
+		headers: {
+			'Cache-Control': 'max-age=0, s-maxage=3600',
+			'Content-Type': 'application/xml'
+		}
+	});
 }

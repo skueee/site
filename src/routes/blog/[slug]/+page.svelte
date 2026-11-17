@@ -16,7 +16,7 @@
 	});
 </script>
 
-<SEO name="skue's blog" url={target} type="article"/>
+<SEO name="skue's blog" url={target} type="article" />
 
 <svelte:head>
 	<link rel="stylesheet" href="https://webmention.io/assets/webmention-render.css" />

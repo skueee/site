@@ -21,7 +21,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<SEO/>
+<SEO />
 
 <div class="h-card hidden">
 	<a class="p-name u-url u-uid" href="https://skue.dev">Robin Brams</a>
