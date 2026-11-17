@@ -1,6 +1,7 @@
 <script>
 	import SocialPill from '#lib/components/SocialPill.svelte';
 	import RepoListing from '#lib/components/RepoListing.svelte';
+	import EightyEightXThirdyOne from '#lib/components/EightyEightXThirdyOne.svelte';
 
 	let { data } = $props();
 </script>
@@ -58,6 +59,13 @@
 			<SocialPill text="Twitter" link="https://x.com/skueee_" />
 			<SocialPill text="Linkedin" link="https://www.linkedin.com/in/robin-brams-89707a443" />
 			<SocialPill text="Bluesky" link="https://bsky.app/profile/skioue.bsky.social" />
+		</div>
+	</div>
+	<div class="flex w-full flex-col items-center justify-center gap-5 sm:px-10">
+	    <h1 class="google-sans-flex-title w-full text-4xl">88x31 buttons!</h1>
+		<div class="flex w-full flex-wrap items-center justify-center gap-y-3 gap-x-5">
+		    <EightyEightXThirdyOne img="https://meltingsnow.neocities.org/images/tb_teto.gif" alt="te te te teto teto" />
+			<EightyEightXThirdyOne />
 		</div>
 	</div>
 </div>
